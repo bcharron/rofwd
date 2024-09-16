@@ -1,0 +1,12 @@
+[package]
+name = "rofwd"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bytes = "1.7.1"
+prost = "0.13.2"
+rdkafka = { version = "0.25", features = ["cmake-build"] }
+
+[build-dependencies]
+prost-build = "0.13.2"
